@@ -5,31 +5,31 @@
 
 
 /**
+
+ * main - check the code for Holberton School students.
+
  *
- *  * main - check the code for Holberton School students.
- *
- *   *
- *
- *    * Return: Always 0.
- *
- *     */
+
+ * Return: Always 0.
+
+ */
 
 int main(void)
 
 {
 
-		char *s0 = "Anne Cognet";
+	char *s0 = "Anne Cognet";
 
-			char *s1 = "Asaia Palacios";
+	char *s1 = "Asaia Palacios";
 
 
 
-				printf("%s, %s\n", s0, s1);
+	printf("%s, %s\n", s0, s1);
 
-					set_string(&s1, s0);
+	set_string(&s1, s0);
 
-						printf("%s, %s\n", s0, s1);
+	printf("%s, %s\n", s0, s1);
 
-							return (0);
+	return (0);
 
 }
